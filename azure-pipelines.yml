@@ -53,4 +53,4 @@ steps:
     mavenVersionOption: 'Default'
     effectivePomSkip: true
     sonarQubeRunAnalysis: false
-    goals: 'clean deploy $(MAVEN_OPTS) -DmuleDeploy -Dserver=$(server) -Denvironment=$(environment) -Dtarget=$(target) -DtargetType=$(targetType) -DmuleVersion=4.7.0 -DapplicationName=onpremise-practice -Dusername=$(username) -Dpassword=$(password)'
+    goals: 'clean deploy $(MAVEN_OPTS) -DmuleDeploy -Dserver=$(server) -Denvironment=$(environment) -Dtarget=ppr-on-prem -DtargetType=server -DmuleVersion=4.7.0 -DapplicationName=onpremise-deployment -Dusername=$(username) -Dpassword=$(password)'
